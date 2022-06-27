@@ -7,9 +7,9 @@ function trataErro(erro){
 }
 
 function extrairCPFs(texto){
-  //Expressão regulara para capurar chave CPF, número e nome 
+  //Expressão regulara para capturar chave CPF, número e nome 
     const regex = /\[([^\]]*)\]\(([0-9]{3}[\.]?[0-9]{3}[\.]?[0-9]{3}[-]?[0-9]{2})\)\(([^\)0-9]*)\)/gm;
-    //Os resultados da leitra do array são inseridos aqui para serem armazenados
+    //Os resultados da leitura do array são inseridos aqui para serem armazenados
     const arrayResultados = [];
     //Variável temporária que irá ler o objeto, caso seja diferente de nulo irá ler o próximo
     let temp;
