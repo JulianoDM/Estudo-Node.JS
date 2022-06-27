@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <section>
+      
+        <form action="/" method="post">
+        <input type="text" name="num1" placeholder="First Number">
+        <input type="text" name="num2" placeholder="Second Number">
+        <button type="submit" name="submit">Calculate</button>
+        </form>
+    </section>
+    
+</body>
+</html>
+
+
+  <!--No form o action define para onde devemos mandar a informação inserida dentro dele, então
+        para enviarmos o resultado da calculadora para o nosso servidor devemos indicar o action com o endereço 
+        '/' que indica a nossa página inicial, da forma que está abaixo retornamos o valor para o nosso
+        HTML o que está errado, pois nosso processamento será feito dentro do servidor-->
+
+        <!--<form action="index.html" method="post">-->
+
+        <!--Usamos então como explicado a / para indicar nossa página inicial e o method post para retornar os dados inseridos-->
+        

@@ -1,0 +1,17 @@
+{
+  "name": "introtonode",
+  "version": "1.0.0",
+  "description": "this is a intro to node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juliano",
+  "license": "ISC",
+  "dependencies": {
+    "anime-images-api": "^2.0.0",
+    "anime-wallpapers": "^1.0.1",
+    "superheroes": "^3.0.0",
+    "supervillains": "^3.0.0"
+  }
+}
