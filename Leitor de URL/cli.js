@@ -12,8 +12,6 @@ async function processaTexto(caminhoDeArquivo){
     else{
         console.log(chalk.yellow('lista de links'), resultado);
     }
-    
-    
 }
 
 

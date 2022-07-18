@@ -23,10 +23,15 @@ async function checaStatus(arrayURLs){
 }
 
 function geraArrayURLs(arrayLinks){
-    return arrayLinks
-        .map(objetolink => Object
-            .values(objetolink).join());
+    return arrayLinks.map(objetolink => Object.values(objetolink).join());
 }
+
+/*function geraArrayURLs(arrayLinks){
+    return arrayLinks.map(function (objetolink) {
+            return Object.values(objetolink).join();
+        });
+    
+}*/
 
 async function validaURLs(arrayLinks){
     const links = geraArrayURLs(arrayLinks);

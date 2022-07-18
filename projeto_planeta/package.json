@@ -1,0 +1,16 @@
+{
+  "name": "projeto_planeta",
+  "version": "1.0.0",
+  "description": "Curiosidades de planetas",
+  "main": "index.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-colors": "^4.1.3",
+    "chalk": "^5.0.1"
+  }
+}
